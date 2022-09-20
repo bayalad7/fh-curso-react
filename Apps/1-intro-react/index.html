@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Intro ReactApp</title>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- Cargar React -->
+    <script crossorigin src="https://unpkg.com/react@16.14.0/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.production.min.js"></script>
+    <!-- Cargar Babel -->
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+    <script type="text/babel">
+        const root = document.getElementById("root");
+        const nombre = "Benjamín";
+        const h1 = <h1>Hola Mundo, soy {nombre} y estoy aprendiendo React JS con Fernando Herrera!</h1>;
+        ReactDOM.render(h1 , root);
+    </script>
+</body>
+</html>
