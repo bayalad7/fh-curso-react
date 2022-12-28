@@ -1,15 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import App from "./app"; // Importamos el componente funcional.
 
 /**
  * Notas.
  * 1.- Al empezar la aplicación de React, necesitamos de un componente funcional (functionals components).
  *     Esto es lo que se acostumbra hoy en día al trabajar con React, puros componentes basados en funciones.
+ * 
  * 2.- Todos los nombres de los componentes funcionales, van capitalizados con Pascal Case o Upper Camel Case.
+ * 
+ * 3.- Nota Importante.
+ *     Al crear aplicaciones con React, usualmente nosotros no vamos a estar creando componentes funcionales
+ *     directamente en el archivo "main.jsx" donde se renderiza nuestra aplicación, estos componentes funcionales
+ *     tienen que ser creados en archivos independientes.
  */
-const App = () => {
-    return (<h1>¡Hola Mundo!</h1>);
-}
+
 
 /**
  * Vamos a renderizar nuestra aplicación.
