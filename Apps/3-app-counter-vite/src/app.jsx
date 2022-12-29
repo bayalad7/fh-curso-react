@@ -1,11 +1,15 @@
-import { Saludo, Despido } from "./components/saludo"
+import { Saludo } from "./components/saludo"
+import { Despido, Despido2 } from "./components/despido"
 
 const App = () => {
     const Nombre = "Benjamín Ayala";
     return (
-        <h1>
-            ¡Hola Mundo! Desde nuestro primer componente. { Saludo(Nombre) } y { Despido(Nombre) }
-        </h1>
+        <div>
+            <h1>
+                ¡Hola Mundo! Desde nuestro primer componente.
+            </h1>
+            { Saludo(Nombre) } y { Despido() }
+        </div>
     );
 }
 
