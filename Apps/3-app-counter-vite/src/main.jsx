@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./app"; // Importamos el componente funcional.
 
+import './css/custom.css'
+
 /**
  * Notas.
  * 1.- Al empezar la aplicación de React, necesitamos de un componente funcional (functionals components).
