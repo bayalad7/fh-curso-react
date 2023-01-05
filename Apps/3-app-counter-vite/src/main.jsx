@@ -24,6 +24,9 @@ import './css/custom.css'
  */
 ReactDOM.createRoot( document.getElementById("root") ).render(
     <React.StrictMode>
-        <App />
+        <App titulo="El título, desde los props!"
+             subtitulo="Soy el subtítulo"
+             valor1={10}
+             valor2={23} />
     </React.StrictMode>
 )
