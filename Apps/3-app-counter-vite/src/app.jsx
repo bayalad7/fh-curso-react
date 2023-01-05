@@ -43,6 +43,19 @@ const App = ({ titulo, subtitulo, valor1, valor2 }) => {
 }
 
 /**
+ * Notas de los DefaultProps.
+ * 1.- Los DefaultProps entran antes que los PropTypes del componente.
+ * 
+ * 2.- Podemos definir los DefaultProps que nosotros queramos y esto no mandaría algún error.
+ */
+App.defaultProps = {
+    titulo: "No hay título",
+    subtitulo: "No hay subtítulo",
+    valor1: 0,
+    valor2: 0,
+}
+
+/**
  * Notas de los PropTypes.
  * 1.- Los PropTypes nos sirven para definirle el tipo de dato a las propiedades de los componentes,
  *     además por otra parte también podemos indicar si algún prop es obligatorio.
