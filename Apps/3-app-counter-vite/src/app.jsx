@@ -1,6 +1,7 @@
 import PropTypes from "prop-types"
 import { Saludo } from "./components/saludo"
 import { Despido, Despido2 , Despido3 } from "./components/despido"
+import Contador from "./components/contador"
 
 const App = ({ titulo, subtitulo, valor1, valor2 }) => {
     
@@ -38,6 +39,9 @@ const App = ({ titulo, subtitulo, valor1, valor2 }) => {
             <p>La suma de { valor1 } y { valor2 } es: { valor1 + valor2 }</p>
             { Saludo(Nombre) } y { Despido() }
             { Despido3() }
+            <br/>
+
+            <Contador $Valor={20}/>
         </div>
     );
 }

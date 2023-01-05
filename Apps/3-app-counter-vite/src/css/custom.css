@@ -6,3 +6,8 @@ html, body{
     color: #ffffff;
     padding: 50px;
 }
+
+button{
+    font-family: Poppins;
+    padding: 10px 15px;
+}
