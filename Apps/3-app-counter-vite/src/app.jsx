@@ -2,6 +2,7 @@ import PropTypes from "prop-types"
 import { Saludo } from "./components/saludo"
 import { Despido, Despido2 , Despido3 } from "./components/despido"
 import Contador from "./components/contador"
+import Counter from "./components/counter"
 
 const App = ({ titulo, subtitulo, valor1, valor2 }) => {
     
@@ -32,6 +33,7 @@ const App = ({ titulo, subtitulo, valor1, valor2 }) => {
     const Nombre = "Benjamín Ayala";
     return (
         <div>
+            <Counter value={1000}/>
             <h1>
                 ¡Hola Mundo! Desde nuestro primer componente.
             </h1>
